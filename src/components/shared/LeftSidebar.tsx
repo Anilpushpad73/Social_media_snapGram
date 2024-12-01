@@ -43,7 +43,11 @@ const LeftSidebar = () => {
         ) : (
           <Link to={`/profile/${user.id}`} className="flex gap-3 items-center">
             <img
-              src={user.imageUrl || "/assets/icons/profile-placeholder.svg"}
+              src={
+                typeof user.imageUrl === 'string'
+                  ? user.imageUrl
+                  : user.imageUrl?.toString() || "/assets/icons/profile-placeholder.svg"
+              }
               alt="profile"
               className="h-14 w-14 rounded-full"
             />
@@ -68,11 +72,9 @@ const LeftSidebar = () => {
                   to={link.route}
                   className="flex gap-4 items-center p-4">
                   <img
-                    src={link.imgURL}
+                    src={link.imgURL instanceof URL ? link.imgURL.href : link.imgURL || ""}
                     alt={link.label}
-                    className={`group-hover:invert-white ${
-                      isActive && "invert-white"
-                    }`}
+                    className={`group-hover:invert-white ${isActive && "invert-white"}`}
                   />
                   {link.label}
                 </NavLink>
