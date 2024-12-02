@@ -1,13 +1,15 @@
-## 💡 Getting Started  
-
-1. Clone the repository:  
-   ```bash  
-   git clone : https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/
-
 
 # 🚀 Snapgram  
 
 Snapgram is a feature-rich social media app designed to deliver an immersive and seamless user experience. Built using modern technologies, Snapgram offers an intuitive interface, robust backend, and responsive design to meet the needs of today's social media users.
+
+
+## 💡 Getting Started  
+
+1. Clone the repository:  
+   git clone : https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/
+
+
 
 ---
 
