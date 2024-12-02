@@ -1,4 +1,8 @@
-Website Link: https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/
+## 💡 Getting Started  
+
+1. Clone the repository:  
+   ```bash  
+   git clone : https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/
 
 
 # 🚀 Snapgram  
@@ -64,10 +68,5 @@ Built with a clean and modular architecture focusing on reusability and maintain
 
 ---
 
-## 💡 Getting Started  
 
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/Anilpushpad73/snapgram.git  
-   cd snapgram  
 
