@@ -7,7 +7,7 @@ Snapgram is a feature-rich social media app designed to deliver an immersive and
 ## 💡 Getting Started  
 
 1. Website:  
-    [snapgram](https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/)
+     [snapgram](https://socialmediasanpgram-git-main-anil-pushapds-projects.vercel.app/)
 
 
 
